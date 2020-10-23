@@ -1,5 +1,5 @@
 import React from 'react';
-import { normalInput } from '../Styles/inputStyles';
+import { normalInput } from '../../Styles/inputStyles';
 
 //S = Single responsibility principle treated here
 // O = Open for modifications and can be extensible

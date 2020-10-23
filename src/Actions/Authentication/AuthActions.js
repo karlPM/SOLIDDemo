@@ -1,4 +1,4 @@
-import { ValidateEmail } from './Validations/index';
+import { ValidateEmail } from '../Validations/index';
 
 export function doLogin(email){
     console.log(email)

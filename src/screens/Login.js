@@ -1,11 +1,11 @@
 import React, {useState} from 'react';
-import TextInput from '../components/TextInput';
-import PassWordComp from '../components/PassWordComp';
-import ButtonComp from '../components/ButtonComp';
-import { doLogin } from '../Actions/AuthActions';
+import TextInput from '../components/Form/TextInput';
+import PassWordComp from '../components/Form/PassWordComp';
+import ButtonComp from '../components/Form/ButtonComp';
+import { doLogin } from '../Actions/Authentication/AuthActions';
 import { normalButton } from '../Styles/ButtonStyles';
 import { normalInput } from '../Styles/inputStyles';
-import UsersData from '../components/UsersData';
+import UsersData from '../components/User/UsersData';
 
 export default function Login (){
     const [showUsers, toggleShowUsers] = useState(false);
